@@ -58,25 +58,5 @@ La relación de Character y Episode será de muchos a muchos, ya que un personaj
 
 ENDPOINTS:
 
-- Get all characters:
-https://rickandmortyapi.com/api/character
-- Get a single character:
-https://rickandmortyapi.com/api/character/2
-- Get multiple characters:
-https://rickandmortyapi.com/api/character/1,183
-
-
-- Get all locations:
-https://rickandmortyapi.com/api/location
-- Get a single location:
-https://rickandmortyapi.com/api/location/3
-- Get multiple locations:
-https://rickandmortyapi.com/api/location/3,21
-
-
-- Get all episodes:
-https://rickandmortyapi.com/api/episode
-- Get a single episode:
-https://rickandmortyapi.com/api/episode/28
-- Get multiple episodes:
-https://rickandmortyapi.com/api/episode/10,28
+- Get de characters: https://rickandmortyapi.com/api/character
+- Get de episodes: https://rickandmortyapi.com/api/episode

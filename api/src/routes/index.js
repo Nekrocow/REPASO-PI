@@ -1,15 +1,15 @@
 const { Router } = require('express')
 const router = Router()
-const { tryCatchWrapper: tryCatch }  = require('../controllers/tryCatchWrapper')
-const { getChars, postChar } = require('../controllers/charCont')
+const { getChars, postChar, deleteChar } = require('../controllers/charCont')
 const { getEpis } = require('../controllers/epiCont')
 
 // Configurar los routers
 
 router.get('/characters', getChars)
-// router.get('/characters/:id', tryCatch(getCharByID))
-// router.post('/characters', tryCatch(postChar))
+// router.get('/characters/:id', getCharByID)
+router.post('/characters', postChar)
+router.delete('/characters', deleteChar)
 
-// router.get('/episodes', tryCatch(getEpis))
+router.get('/episodes', getEpis)
 
 module.exports = router
